@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Test Suite,Chrome 95.0.4638.54,,,2021-10-30 17:09:16,2021-10-30 17:10:49,1m - 33.013s,FAILED
-,,,,,,,
-Test Cases/RunLoginFeature,Chrome 95.0.4638.54,,,2021-10-30 17:09:16,2021-10-30 17:10:49,1m - 32.821s,FAILED
-"runFeatureFolder(""Include/features"")",Chrome 95.0.4638.54,,,2021-10-30 17:09:17,2021-10-30 17:10:49,1m - 32.611s,FAILED
