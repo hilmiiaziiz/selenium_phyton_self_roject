@@ -1,0 +1,266 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Akses Explore Feature",
+        "description": "",
+        "id": "explore-feature;akses-explore-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5599891000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open The Explore Page",
+            "match": {
+              "location": "AksesTheExplorePage.OpenExplorePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2327744100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify The Menu Bar",
+            "match": {
+              "location": "AksesTheExplorePage.VerifyMenuBar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22239502500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Access The Menu Bar",
+            "match": {
+              "location": "AksesTheExplorePage.AksesTheNewReleaseBar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 699395400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Closing browser",
+            "match": {
+              "location": "AksesTheExplorePage.CloseTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Explore Feature",
+    "description": "",
+    "id": "explore-feature",
+    "keyword": "Feature",
+    "uri": "D:/Skill Test/SkillTestEfishery/Include/features/AksesExplore.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Akses Home Feature",
+        "description": "",
+        "id": "home-feature;akses-home-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4441387600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open the Home page from Youtube Music",
+            "match": {
+              "location": "AksesTheHomePage.OpenThePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 531770900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User can see the section from the page",
+            "match": {
+              "location": "AksesTheHomePage.OpenTheHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10390434200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Play Music",
+            "match": {
+              "location": "AksesTheHomePage.PlayTheMusic()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 668051000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the browser",
+            "match": {
+              "location": "AksesTheHomePage.CloseBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home Feature",
+    "description": "",
+    "id": "home-feature",
+    "keyword": "Feature",
+    "uri": "D:/Skill Test/SkillTestEfishery/Include/features/AksesHomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Access Login Feature",
+        "description": "",
+        "id": "login-feature;access-login-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4598505700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Youtube Music Page",
+            "match": {
+              "location": "Login.OpenPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to set encrypted text for object \u0027Object Repository/Login/Page Login/FieldEmail\u0027\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$7.call(Unknown Source)\r\n\tat Login.InputData(Login.groovy:66)\r\n\tat ✽.input the username and password(D:/Skill Test/SkillTestEfishery/Include/features/Login.feature:5)\r\nCaused by: org.openqa.selenium.InvalidElementStateException: invalid element state\n  (Session info: chrome\u003d95.0.4638.54)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027LAPTOP-8D6D4H23\u0027, ip: \u0027192.168.100.243\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\\Users\\62822\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 178eb0e88bf03239bf85877bd55aea3a\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)\r\n\tat com.sun.proxy.$Proxy18.clear(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.doCall(SetEncryptedTextKeyword.groovy:54)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword$_setEncryptedText_closure1.call(SetEncryptedTextKeyword.groovy)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.setEncryptedText(SetEncryptedTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetEncryptedTextKeyword.execute(SetEncryptedTextKeyword.groovy:34)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setEncryptedText(WebUiBuiltInKeywords.groovy:1011)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setEncryptedText$7.call(Unknown Source)\r\n\tat Login.InputData(Login.groovy:66)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\r\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:47)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\r\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\r\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\r\n\tat cucumber.api.cli.Main.run(Main.java:35)\r\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFolder_closure3.doCall(CucumberBuiltinKeywords.groovy:359)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFolder_closure3.doCall(CucumberBuiltinKeywords.groovy)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFolder(CucumberBuiltinKeywords.groovy:328)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFolder$0.callStatic(Unknown Source)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFolder(CucumberBuiltinKeywords.groovy:494)\r\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFolder.call(Unknown Source)\r\n\tat RunLoginFeature.run(RunLoginFeature:20)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1635588546452.run(TempTestSuite1635588546452.groovy:36)\r\n",
+              "duration": 6817864700,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "input the username and password",
+            "match": {
+              "location": "Login.InputData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Close browser",
+            "match": {
+              "location": "Login.CloseBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "D:/Skill Test/SkillTestEfishery/Include/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Access Seacrh Feature",
+        "description": "",
+        "id": "search-feature;access-seacrh-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5563585300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the Browser Page",
+            "match": {
+              "location": "Search.OpenThePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4610677100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search Music",
+            "match": {
+              "location": "Search.OpenTheHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23101189800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Play the music",
+            "match": {
+              "location": "Search.PlayTheMusic()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 648364700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Close the page",
+            "match": {
+              "location": "Search.CloseBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Feature",
+    "description": "",
+    "id": "search-feature",
+    "keyword": "Feature",
+    "uri": "D:/Skill Test/SkillTestEfishery/Include/features/Search.feature",
+    "tags": []
+  }
+]
